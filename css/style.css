@@ -1,0 +1,158 @@
+/* General */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Utility */
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+/* clearflix */
+.clearflix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+
+}
+
+p {
+  color: #808080;
+  line-height: 30px;
+}
+
+.float {
+  float: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.btn {
+  display: inline-block;
+  line-height: 23px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  min-width: 100px;
+  text-transform: uppercase;
+}
+
+.btn-green {
+  background-color: #7cbb02;
+  border: none;
+}
+
+.btn-big {
+  padding: 20px;
+}
+
+/* header */
+.main-header {
+  background-color: #0e365e;
+}
+
+.nav {
+  line-height: 80px;
+}
+
+.left {
+  width: 15%;
+}
+
+.left img {
+  vertical-align: middle;
+}
+
+.center {
+  width: 45%;
+}
+
+.right {
+  width: 40%;
+}
+
+.menu-inline li {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.menu-inline li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* jumbotron */
+.jumbotron {
+  height: 480px;
+  background-image: url("../img/background-header.png");
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.jumbotron {
+  position: relative;
+}
+.jumbotron .jumbotron-text {
+  position: absolute;
+  top: 100px;
+}
+
+.jumbotron .jumbotron-text h1 {
+  color: #fff;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.jumbotron .jumbotron-text a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Main */
+.main-top {
+  background-color: #d3d3d3;
+}
+
+.main-top .first-main {
+  padding: 40px 0;
+}
+
+/* main centrale */
+.main-center {
+  background-color: purple;
+}
+
+.info {
+  background-color: green;
+}
+.info .box {
+  background-color: yellow;
+  width: calc(100% / 3);
+  border: 1px solid black;
+}
+
+.info .box img {
+  height: 150px;
+  padding: 20px;
+}
