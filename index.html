@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>htmlcss-fluentify</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
@@ -24,17 +25,27 @@
             <div class="center float text-center">
               <!-- menu di navigazione -->
               <ul class="menu-inline">
-                <li>il metodo</li>
-                <li>la tecnologia</li>
-                <li>real-life english</li>
-                <li>soluzioni aziendali</li>
+                <li>
+                  <a href="">il metodo</a>
+                </li>
+                <li>
+                  <a href="">la tecnologia</a>
+                </li>
+                <li>
+                  <a href>real-life english</a>
+                </li>
+                <li>
+                  <a href="">soluzioni aziendali</a>
+                </li>
               </ul>
             </div>
 
             <div class="right float text-center">
               <!-- lista secondaria -->
               <ul class="menu-inline">
-                <li>diventa un tutor</li>
+                <li>
+                  <a href="">diventa un tutor</a>
+                </li>
                 <li>
                   <a class="btn" href="#">login</a>
                 </li>
@@ -93,7 +104,7 @@
       </section>
       <!-- Ultima sezione -->
       <section class="last-section">
-        <div class="final-main clearflix container">
+        <div class="final-main clearflix container text-center">
           <!-- parte sinistra -->
           <div class="left-img width-50 float">
             <img src="./img/mountain.svg" alt="grafico">
@@ -116,12 +127,17 @@
           <h3>Struttura un piano</h3>
         </div>
         <div class="list float">
-          <!-- qui ci va il menu a tendina -->
+          <!-- qui ci va il menu -->
+          <p>
+            Sono <span class="line">Seleziona</span>
+            <i class="fas fa-caret-down"></i>
+          </p>
         </div>
-        <div class="button float">
+        <div class="button float text-center">
           <!-- qui ci vanno i pulsanti -->
+          <a class="visual btn btn-green btn-big" href="#">visualizza il tuo piano</a>
+          <a class="help btn btn-green btn-small" href="#">Help</a>
         </div>
-
       </div>
     </footer>
   </body>

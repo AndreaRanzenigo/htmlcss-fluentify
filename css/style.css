@@ -24,7 +24,6 @@ body {
 
 h1, h2, h3 {
   font-weight: 500;
-
 }
 
 p {
@@ -63,6 +62,13 @@ p {
   padding: 20px;
 }
 
+.btn-small {
+  max-width: 10px;
+  border-radius: 5px 5px 0 0;
+  display: block;
+  margin-top: 20px;
+}
+
 /* header */
 .main-header {
   background-color: #0e365e;
@@ -99,6 +105,10 @@ p {
 .menu-inline li a {
   text-decoration: none;
   color: #fff;
+}
+
+.menu-inline li a:not(.btn):hover {
+  color: orange;
 }
 
 /* jumbotron */
@@ -197,20 +207,58 @@ p {
 
 /* footer */
 footer {
-  background-color: grey;
-  height: 150px;
+  background-color: #d6d7d6;
+  height: 130px;
+  margin-top: 30px;
 }
 .main-footer {
-  background-color: red;
-  height: 100px;
-}
-
-.main-footer .title {
-  background-color: orange;
-  height: 50px;
+  position: relative;
 }
 
 .main-footer .list {
-  background-color: yellow;
-  height: 50px;
+  line-height: 80px;
+}
+
+.title h3 {
+  line-height: 100px;
+}
+
+.main-footer .list p {
+  line-height: 100px;
+}
+
+.main-footer .list i {
+  padding-left: 60px;
+}
+
+.main-footer .list span {
+  padding-left: 20px;
+}
+
+.main-footer .list p::after {
+  content: "";
+  display: block;
+  width: 12%;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  top: 60px;
+  left: 660px;
+}
+
+.main-footer .button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-footer .button .help {
+  position: fixed;
+  bottom: 0;
+  right: 300px;
+}
+
+.main-footer .button .visual {
+  position: absolute;
+  top: 20px;
+  right: 130px;
 }
