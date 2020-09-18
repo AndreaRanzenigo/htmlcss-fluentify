@@ -69,6 +69,14 @@ p {
   margin-top: 20px;
 }
 
+.btn-green:hover {
+  background-color: #588600;
+}
+
+.btn:not(.btn-green):hover {
+  background-color: #011f3e;
+}
+
 /* header */
 .main-header {
   background-color: #0e365e;
